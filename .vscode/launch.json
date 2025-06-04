@@ -1,0 +1,26 @@
+// .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Bedrock",
+        "program": "${workspaceFolder}/index.js",
+        "cwd": "${workspaceFolder}",
+        "envFile": "${workspaceFolder}/.env",
+        "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+    },
+    {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Bedrock2",
+        "program": "${workspaceFolder}/src/index.js",
+        "cwd": "${workspaceFolder}",
+        "envFile": "${workspaceFolder}/.env",
+        "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+    },
+  ],
+}

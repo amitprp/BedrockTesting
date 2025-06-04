@@ -1,0 +1,24 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+I’m building an AI-powered web scraper execution framework using Puppeteer or Playwright and Bedrock models (Claude, Titan, etc.).
+
+Refer to the Notion document with ID: `NOTION_PAGE_ID_HERE` — it outlines the architecture, components, and goals.
+
+I want to break down the system into actionable implementation steps across the codebase using Cursor's Multi-step Code Planning (MCP).
+Start by reading and interpreting the Notion page. Then:
+
+1. Break it into modules and core files.
+2. For each file, describe its purpose and functionality.
+3. List TODOs or scaffolded blocks for each part.
+4. Focus especially on:
+   - Creating a unified AI step planner and executor.
+   - Routing requests to Bedrock models.
+   - Defining clean interfaces for step definitions (e.g., `goto`, `click`, `extractTable`).
+   - Supporting config-driven scraper flows (`config.json` + `scraper.ts`).
+
+Don’t generate actual code yet — just scaffold a clean, modular implementation plan that matches the system described in the Notion doc.
+
+✅
